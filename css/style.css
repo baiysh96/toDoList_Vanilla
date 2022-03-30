@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Palette+Mosaic&family=Rosario:wght@700&display=swap');
+body {
+    font-family: 'Rosario', sans-serif;
+}
+.title-section {
+    color: rgba(205, 92, 92, 1);
+}
+.list-group input:checked + span{
+    text-decoration: line-through;
+
+
+}
+.list-group input:checked + span{
+     color: red;
+}
+.delete-btn {
+    font-size: 14px;
+}

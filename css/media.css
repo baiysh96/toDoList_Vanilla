@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 996px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 770px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 320px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+    .title-section {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .input-group {
+        width: 200px;
+        margin: 0 auto !important;
+    }
+
+    .list-group-item {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+
+    }
+
+    .list-group-item {
+        width: 200px;
+    }
+
+    .delete-btn {
+        font-size: 10px;
+
+    }
+
+    span {
+        font-size: 14px;
+
+    }
+
+}
